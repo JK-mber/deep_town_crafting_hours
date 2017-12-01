@@ -1,0 +1,1347 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"look",
+				"lookup_packed"
+			],
+			[
+				"w_p",
+				"w_ptr_lookup_freq"
+			],
+			[
+				"input",
+				"input_signals"
+			],
+			[
+				"fix_",
+				"fix_24_5"
+			],
+			[
+				"DEBU",
+				"DEBUG_NATIVE"
+			],
+			[
+				"w_",
+				"w_ptr_diff"
+			],
+			[
+				"bit_",
+				"bit_copy_to_uint24"
+			],
+			[
+				"un",
+				"unpack_stream"
+			],
+			[
+				"veco",
+				"vector4_24_5"
+			],
+			[
+				"bit",
+				"bitstreamer_param_t"
+			],
+			[
+				"str",
+				"strcmp"
+			],
+			[
+				"stream",
+				"stream_formatted"
+			],
+			[
+				"num",
+				"p_num_bits"
+			],
+			[
+				"DEBUG_",
+				"DEBUG_NATIVE"
+			],
+			[
+				"bdma",
+				"bdma_in_fix"
+			],
+			[
+				"b_ptr",
+				"b_ptr_bk"
+			],
+			[
+				"cum_f",
+				"cum_freq_ptr"
+			],
+			[
+				"BW_",
+				"BW_fcbin_bits"
+			],
+			[
+				"ui",
+				"uint24"
+			],
+			[
+				"st",
+				"st"
+			],
+			[
+				"cum",
+				"cum_freq_ptr"
+			],
+			[
+				"uint",
+				"uint48_t"
+			],
+			[
+				"uin",
+				"uint48_t"
+			],
+			[
+				"b_p",
+				"b_ptr"
+			],
+			[
+				"ra_enc",
+				"ra_encode_notabs"
+			],
+			[
+				"nbb",
+				"nbbits_lastnz"
+			],
+			[
+				"high",
+				"high_ovfl"
+			],
+			[
+				"carr",
+				"carry_count"
+			],
+			[
+				"fix_in",
+				"fix_inv_table_exp"
+			],
+			[
+				"pro",
+				"process_noise_factor"
+			],
+			[
+				"basic",
+				"basic_types"
+			],
+			[
+				"bw_",
+				"BW_fcbin"
+			],
+			[
+				"bitstream_",
+				"bitstream_calc_dist"
+			],
+			[
+				"ra_",
+				"ra_encode_shift"
+			],
+			[
+				"add_",
+				"add_uint24_uint24"
+			],
+			[
+				"nbbit",
+				"nbbits32"
+			],
+			[
+				"b_pt",
+				"b_ptr"
+			],
+			[
+				"ra_en",
+				"ra_encode_notabs"
+			],
+			[
+				"prin",
+				"printf\tprintf …"
+			],
+			[
+				"mult",
+				"mult_full_prec"
+			],
+			[
+				"sym",
+				"sym_freq"
+			],
+			[
+				"sam",
+				"sampleRateIn"
+			],
+			[
+				"if",
+				"if\tIf Condition"
+			],
+			[
+				"i",
+				"if\tIf Condition"
+			],
+			[
+				"BW_f",
+				"BW_fcbin_bits"
+			],
+			[
+				"bitstre",
+				"bitstream_unpack"
+			],
+			[
+				"cum_fr",
+				"cum_freq_ptr"
+			],
+			[
+				"WR",
+				"WRITE_TO_DEBUG_PORT"
+			],
+			[
+				"bitstr",
+				"bitstream_unpack"
+			],
+			[
+				"decode_",
+				"decode_48"
+			],
+			[
+				"shape",
+				"shapeK"
+			],
+			[
+				"printf",
+				"printf\tprintf …"
+			],
+			[
+				"UL_va",
+				"UL_val_tmp"
+			],
+			[
+				"exp",
+				"exp_num"
+			],
+			[
+				"sh",
+				"shr_uint48"
+			],
+			[
+				"lsfvq_setup",
+				"lsfvq_setup_shapeTotSz"
+			],
+			[
+				"lsfb",
+				"lsfvq_setup_totBaseBits"
+			],
+			[
+				"shap",
+				"shapeTotSz"
+			],
+			[
+				"cum_",
+				"cum_freq"
+			],
+			[
+				"fa",
+				"fac_ns_idx"
+			],
+			[
+				"fac",
+				"fac_ns"
+			],
+			[
+				"calc",
+				"bitstream_calc_dist"
+			],
+			[
+				"bw",
+				"BW_fcbin_idx"
+			],
+			[
+				"help",
+				"ac_help_fx"
+			],
+			[
+				"ran",
+				"ac_range_fx"
+			],
+			[
+				"low",
+				"ac_low_fx"
+			],
+			[
+				"dec",
+				"decode_counter"
+			],
+			[
+				"last",
+				"lastnz"
+			],
+			[
+				"bitstrea",
+				"bitstream_set_num_bits"
+			],
+			[
+				"BW",
+				"BW_fcbin_idx"
+			],
+			[
+				"print_",
+				"print_formatted_bytes"
+			],
+			[
+				"UL_e",
+				"UL_e"
+			],
+			[
+				"wri",
+				"write_bytestream_to_bdma"
+			],
+			[
+				"bitst",
+				"bitstream_unpack"
+			],
+			[
+				"tmp24",
+				"tmp24_ptr"
+			],
+			[
+				"tmp",
+				"tmp24_ptr"
+			],
+			[
+				"int",
+				"int16"
+			],
+			[
+				"xq",
+				"xq_ptr_int16"
+			],
+			[
+				"nbit",
+				"nbbits_left"
+			],
+			[
+				"nbbits",
+				"nbbits_left"
+			],
+			[
+				"nbbi",
+				"nbbits_left"
+			],
+			[
+				"nbbits_",
+				"nbbits_encoded"
+			],
+			[
+				"b1",
+				"b1_msb"
+			],
+			[
+				"A_",
+				"A_THRES_SHIFT"
+			],
+			[
+				"ab",
+				"ab_max"
+			],
+			[
+				"en",
+				"encode_uint48"
+			],
+			[
+				"add_uin",
+				"add_uint48_uint48"
+			],
+			[
+				"add",
+				"add_uint24_uint24"
+			],
+			[
+				"mul",
+				"mult_uint24_uint24"
+			],
+			[
+				"mult_",
+				"mult_uint48_uint16"
+			],
+			[
+				"hi",
+				"hi"
+			],
+			[
+				"lsfv",
+				"lsfvq_setup_shapeTotSz"
+			],
+			[
+				"enco",
+				"encode_uniform"
+			],
+			[
+				"inv",
+				"inv_tot"
+			],
+			[
+				"w_ptr",
+				"w_ptr_bk"
+			],
+			[
+				"w_tr",
+				"w_ptr"
+			],
+			[
+				"tns_",
+				"tns_numfilters"
+			],
+			[
+				"arith_enc_",
+				"arith_enc_state_init"
+			],
+			[
+				"w_pt",
+				"w_ptr_bk"
+			],
+			[
+				"ltpf",
+				"ltpf_idx"
+			],
+			[
+				"tns",
+				"tns_order_fix"
+			],
+			[
+				"w",
+				"w_ptr_bk"
+			],
+			[
+				"bptr",
+				"b_ptr_bk"
+			],
+			[
+				"b_ptr_",
+				"b_ptr_bk_nf"
+			],
+			[
+				"L_s",
+				"L_spec_half"
+			],
+			[
+				"ena",
+				"enable_lpc_weighting"
+			],
+			[
+				"WRI",
+				"WRITE_ARITH_ENC_INPUT_PARAMS_TO_BDMA"
+			],
+			[
+				"itn16",
+				"int16"
+			],
+			[
+				"dec_",
+				"dec_init_24b_values"
+			],
+			[
+				"L_",
+				"L_lsf_idx_fix"
+			],
+			[
+				"int16",
+				"int16"
+			],
+			[
+				"tmp_",
+				"tmp_counter"
+			],
+			[
+				"cum_F",
+				"cum_freq_ptr"
+			],
+			[
+				"cum_fre",
+				"cum_freq_ptr_orig"
+			],
+			[
+				"print",
+				"printf\tprintf …"
+			],
+			[
+				"bytes",
+				"bytes_v"
+			],
+			[
+				"b_",
+				"b_ptr_r"
+			],
+			[
+				"align",
+				"alignment"
+			],
+			[
+				"NB",
+				"NBITS_CONTEXT"
+			],
+			[
+				"order",
+				"order_proba"
+			],
+			[
+				"shl",
+				"shl8_uint48"
+			],
+			[
+				"ARITH",
+				"ARITH_DEC_INLINE"
+			],
+			[
+				"ord",
+				"order_proba_cum"
+			],
+			[
+				"sub",
+				"sub_uint48_uint48"
+			],
+			[
+				"tmp2",
+				"tmp2"
+			],
+			[
+				"sub_",
+				"sub_uint24_uint24"
+			],
+			[
+				"arith_co",
+				"arith_coder_dec_state_t"
+			],
+			[
+				"b_tr",
+				"b_ptr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "key",
+		"selected_items":
+		[
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"resour",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"com",
+				"Compare with..."
+			],
+			[
+				"comp",
+				"Compare with..."
+			],
+			[
+				"co",
+				"Compare with..."
+			],
+			[
+				"open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"c",
+				"Compare with..."
+			],
+			[
+				"compare",
+				"Compare with..."
+			],
+			[
+				"compa",
+				"Compare with..."
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"diff",
+				"Diffy Cleanup"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimerg",
+				"Sublimerge: Compare to View..."
+			],
+			[
+				"histo",
+				"Local History: Compare"
+			],
+			[
+				"extra",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"remoce",
+				"Package Control: Remove Package"
+			],
+			[
+				"resou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"ex",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"reso",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"dif",
+				"Perforce: Diff"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"perf",
+				"Perforce: Diff"
+			],
+			[
+				"perfor",
+				"Perforce: Checkout"
+			],
+			[
+				"per",
+				"Perforce: List Checkedout Files"
+			],
+			[
+				"p",
+				"Perforce: Login"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"c im",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"check",
+				"Perforce: Checkout"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 864.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/scratch/git/deep_town_crafting_hours"
+	],
+	"file_history":
+	[
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/NBC_reference/LC3_src_v5536_Eval_20171110/BTcodec/quantize_spec_fx.c",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/NBC_reference/LC3_src_v5536_Eval_20171110/BTcodec/basic_op/basop32.c",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/NBC_reference/LC3_src_v5536_Eval_20171110/BTcodec/basic_op/move.h",
+		"/scratch/workspaces/nbc_arith/tool/esw_test_tool/main/src/matlab/@TestCase/TestCase.m",
+		"/scratch/workspaces/nbc_arith/tool/esw_test_tool/main/src/matlab/TestPoint.m",
+		"/scratch/workspaces/nbc_arith/depot.xml",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/test/unit_test/TestUnitArithDecoder.m",
+		"/scratch/workspaces/nbc_arith/tool/esw_test_tool/wrk_jeka_test_vec_len/src/matlab/testExecutor.m",
+		"/scratch/workspaces/fu_tests/test/xdsp_fu_test/dsp2_main/test/unit_test/TestUnitBitstreamer.m",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/build/release_fix/test/unit_test/TestUnitArithEncoder/simdata_fix/release/trace.log",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/test/unit_test/sub_VQ_ref.m",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/src/program/unit_test/unit_test_top.cpp",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/src/program/unit_test/unit_test.xml",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/build/release_fix/src/program/unit_test/config/default/code_program.pleaser",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/src/program/unit_test/unit_test.h",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/src/program/unit_test/unit_test.cpp",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/src/program/unit_test/config.h",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/src/program/unit_test/systemc/unit_test_sc.h",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/src/algorithm/encoder_top/encoder_top.xml",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/src/algorithm/encoder_top/encoder_top.cpp",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/src/algorithm/arith_coder/range_coder_24b.cpp",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/src/algorithm/noise_factor/noise_factor.h",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/src/algorithm/noise_factor/noise_factor.xml",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/src/algorithm/noise_factor/noise_factor_init.cpp",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/src/algorithm/noise_factor/noise_factor.cpp",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/src/algorithm/arith_coder/bitstreamer.c",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/src/algorithm/arith_coder/arith_coder.xml",
+		"/tmp/jeka(p4v)/kbnuxsrv231_perforce.emea.demant.com_5000/depot/common/dsp/component/tool/esw_test_tool/wrk_jeka_test_vec_len/src/matlab/TestPoint#2.m",
+		"/scratch/workspaces/nbc_arith/tool/esw_test_tool/main/src/matlab/@DUTAccessLayer/DUTAccessLayer.m",
+		"/scratch/workspaces/wrk_jeka_depot_full/depot/icc/components/tools/flow/build_utils/src/main/build_utils.forge",
+		"/scratch/workspaces/wrk_jeka_depot_full/depot/icc/components/tools/flow/build_utils/src/rel_1.7.0/build_utils.forge",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/src/algorithm/arith_coder/noise_factor.cpp",
+		"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/WDH_reference/NBCodec/constants.c",
+		"/scratch/workspaces/fu_tests/test/xdsp_fu_test/dsp2_main/test/unit_test/conv_to_uint.m",
+		"/scratch/workspaces/fu_tests/test/xdsp_fu_test/dsp2_main/src/algorithm/encoder_top/encoder_top.xml",
+		"/scratch/workspaces/fu_tests/test/xdsp_fu_test/dsp2_main/test/unit_test/bitstreamerPSpec.m",
+		"/scratch/workspaces/fu_tests/tool/esw_test_tool/main/src/matlab/@TestCase/TestCase.m",
+		"/scratch/workspaces/fu_tests/test/xdsp_fu_test/dsp2_main/src/algorithm/alg_mult_eks/alg_mult_eks_init.cpp",
+		"/scratch/workspaces/fu_tests/test/xdsp_fu_test/dsp2_main/src/algorithm/alg_mult_eks/alg_mult_eks.cpp",
+		"/scratch/workspaces/fu_tests/tool/esw_test_tool/main/src/matlab/@DUTAccessLayer/DUTAccessLayer.m",
+		"/scratch/workspaces/fu_tests/test/xdsp_fu_test/dsp2_main/src/algorithm/alg_mult_eks/alg_mult_eks.xml",
+		"/tmp/jeka(p4v)/kbnuxsrv231_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/wrk_kkf_sigin/src/algorithm/levinson/levinson#3.xml",
+		"/tmp/jeka(p4v)/kbnuxsrv231_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/wrk_kkf_sigin/src/algorithm/encoder_top/encoder_top#4.xml",
+		"/scratch/workspaces/fu_tests/test/xdsp_fu_test/dsp2_main/src/algorithm/bitstreamer/bitstreamer_ref_model.cpp",
+		"/tmp/jeka(p4v)/kbnuxsrv231_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/aurora_td_fw/main/test/td_core/TestTDAfbBypass#7.m",
+		"/tmp/jeka(p4v)/kbnuxsrv231_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/delivery/esw_package_bin/rel_8.10.0/testlogs/RT#2.xml",
+		"/tmp/jeka(p4v)/kbnuxsrv231_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/delivery/esw_package_bin/rel_8.10.0/scripts/create_xml_report#1.py",
+		"/scratch/workspaces/rel_10.0.0/workspace.forge",
+		"/scratch/workspaces/wrk_jeka_depot_full/depot/projects/aurora/dsp/component/delivery/esw_package_bin/rel_10.0.0/testlogs/testCaseMetadata.xml",
+		"/tmp/jeka(p4v)/kbnuxsrv231_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/delivery/esw_package_bin/rel_8.10.0/testlogs/testCaseMetadata#2.xml",
+		"/tmp/jeka(p4v)/kbnuxsrv231_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/delivery/esw_package_bin/rel_10.0.0/testlogs/testCaseMetadata#2.xml",
+		"/scratch/tmp/create_xml_report error.txt",
+		"/scratch/workspaces/wrk_jeka_depot_full/depot/projects/aurora/dsp/component/delivery/esw_package_bin/rel_8.10.0/testlogs/testCaseMetadata.xml",
+		"/tmp/jeka(p4v)/kbnuxsrv231_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_fba_fw/rb_8/test/fba_test/TestFBASetup2#1.m",
+		"/tmp/jeka(p4v)/kbnuxsrv231_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/wrk_kkf_sigin/test/unit_test/TestUnitLevinson#4.m",
+		"/scratch/workspaces/wrk_jeka_depot_full/depot/projects/aurora/dsp/component/test/xdsp_fu_test/dsp2_main/test/unit_test/TestUnitBase.m",
+		"/scratch/workspaces/fu_tests/test/xdsp_fu_test/dsp2_main/src/program/unit_test/systemc/unit_test_sc.h",
+		"/scratch/workspaces/fu_tests/test/xdsp_fu_test/dsp2_main/SConscript.in",
+		"/scratch/workspaces/wrk_jeka_depot_full/depot/projects/aurora/dsp/component/test/xdsp_fu_test/dsp2_main/SConscript.in",
+		"/scratch/workspaces/fu_tests/workspace.xml",
+		"/scratch/workspaces/fu_tests/depot.xml",
+		"/scratch/workspaces/fu_tests/test/xdsp_fu_test/dsp2_main/src/program/unit_test/config.h",
+		"/scratch/workspaces/fu_tests/test/xdsp_fu_test/dsp2_main/src/algorithm/mult_unit_test_template/mult_unit_test_template.xml",
+		"/scratch/workspaces/wrk_jeka_depot_full/depot/projects/aurora/dsp/component/test/xdsp_fu_test/dsp2_main/src/program/unit_test/unit_test_top.cpp",
+		"/home/jeka/tmp/create_xml_report.py",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/WDH_reference/NBCodec/noise_factor_fx.c",
+		"/tmp/tmp.23913.71",
+		"/scratch/workspaces/wrk_jeka_depot_full/depot/projects/aurora/dsp/component/tool/esw_device_test/rel_10.0.0/component_test_spec.xml",
+		"/scratch/workspaces/release/dspws/implement/aurora_esw_setup/rel_10.0.0/component.xml",
+		"/scratch/workspaces/rb_8/workspace.forge",
+		"/scratch/workspaces/main/workspace.forge",
+		"/home/jeka/.config/sublime-text-3/Packages/C++/C.sublime-syntax",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/src/algorithm/arith_coder/range_coder_24b.cpp",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/src/algorithm/arith_coder/arith_coder.h",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/WDH_reference/NBCodec/basic_op/enhUL32.c",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/build/release_fix/test/unit_test/TestUnitArithEncoder/simdata_fix/release/trace.log",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/build/release_fix/test/unit_test/TestUnitArithEncoder/nbcRefSimdata/trace.log",
+		"/scratch/workspaces/wrk_jeka_depot_full/depot/icc/components/firmware/top/es_aurora_app/fw/main/pam/aurora_nvram_top.metax",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/build/release_target/test/unit_test/TestUnitArithEncoder/simdata_target/release/profile.fpr",
+		"/home/jeka/.config/sublime-text-3/Packages/C++/C++.sublime-syntax",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/build/release_fix/test/unit_test/TestUnitArithEncoder/simdata_fix/release/debug_bdma_output_29.mat",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/build/release_fix/test/unit_test/TestUnitArithEncoder/nbcRefSimdata/nbc_input.wav",
+		"/home/jeka/.config/sublime-text-3/Packages/Compare Side-By-Side/Default.sublime-commands",
+		"/home/jeka/.config/sublime-text-3/Packages/Compare Side-By-Side/Default (Windows).sublime-keymap",
+		"/home/jeka/.config/sublime-text-3/Packages/Compare Side-By-Side/Default (Linux).sublime-keymap",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/NBC_reference/NBC_src_v4419_Eval_20170731/BTcodec/noise_factor_fx.c",
+		"/home/jeka/.config/sublime-text-3/Packages/Compare Side-By-Side/SBSCompare.sublime-settings",
+		"/home/jeka/.config/sublime-text-3/Packages/Diffy/Diffy.sublime-settings",
+		"/home/jeka/.config/sublime-text-3/Packages/Diffy/Default.sublime-commands",
+		"/home/jeka/.config/sublime-text-3/Packages/Diffy/Default (Linux).sublime-keymap",
+		"/home/jeka/.config/sublime-text-3/Packages/User/Diffy.sublime-settings",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/src/algorithm/arith_coder/range_coder_32b.cpp",
+		"/tmp/jeka(p4v)/kbnuxsrv231_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/wrk_abol_update_3758/test/unit_test/TestUnitArithEncoder#4.m",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_3758/test/unit_test/scaleREFSig_expInterleaved.m",
+		"/scratch/workspaces/wrk_jeka_depot_full/depot/projects/aurora/dsp/component/implement/block_nbc_fw/wrk_abol_update_3758/src/algorithm/arith_coder/arith_coder.cpp",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_3758/src/algorithm/arith_coder/noise_factor.cpp",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/src/algorithm/arith_coder/noise_factor.cpp",
+		"/tmp/jeka(p4v)/kbnuxsrv231_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/wrk_abol_update_3758/WDH_reference/NBCodec/noise_factor_fx#3.c",
+		"/scratch/workspaces/wrk_jeka_depot_full/depot/projects/aurora/dsp/component/implement/block_nbc_fw/wrk_abol_update_4419/test/unit_test/TestUnitArithEncoder.m",
+		"/scratch/workspaces/wrk_jeka_depot_full/depot/projects/aurora/dsp/component/implement/block_nbc_fw/wrk_abol_update_3758/src/algorithm/arith_coder/arith_coder.xml",
+		"/home/jeka/.config/sublime-text-3/Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
+		"/home/jeka/.config/sublime-text-3/Packages/User/C++.sublime-syntax",
+		"/home/jeka/.config/sublime-text-3/Packages/User/C.sublime-syntax",
+		"/home/jeka/.config/sublime-text-3/Packages/User/C++/C.sublime-syntax",
+		"/home/jeka/.config/sublime-text-3/Packages/User/C++/C++.sublime-syntax",
+		"/home/jeka/.config/sublime-text-3/Packages/C++/syntax_test_c.c",
+		"/home/jeka/.config/sublime-text-3/Packages/User/C++/C_old.sublime-syntax",
+		"/home/jeka/.config/sublime-text-3/Packages/User/Objective-C.sublime-settings",
+		"/home/jeka/.config/sublime-text-3/Packages/Matlab.sublime-settings",
+		"/home/jeka/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/home/jeka/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/jeka/.config/sublime-text-3/Packages/C++/Symbol Index Hide Ctors.tmPreferences",
+		"/home/jeka/.config/sublime-text-3/Packages/C++/Symbol List.tmPreferences",
+		"/home/jeka/.config/sublime-text-3/Packages/User/C++.sublime-settings",
+		"/home/jeka/.config/sublime-text-3/Packages/C++ Starting Kit/C++.tmLanguage",
+		"/home/jeka/.config/sublime-text-3/Packages/C++/Snippets/while-loop-(while).sublime-snippet",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_3758/src/algorithm/arith_coder/arith_coder.xml",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_3758/src/algorithm/arith_coder/arith_coder.cpp",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/src/algorithm/arith_coder/old_stuff.c",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/src/program/unit_test/unit_test.cpp",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/src/program/unit_test/unit_test_data.cpp",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/src/program/unit_test/unit_test_param.cpp",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/src/program/unit_test/unit_test_top.cpp",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/src/program/unit_test/systemc/unit_test_sc.cpp",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/src/algorithm/arith_coder/arith_coder_init.cpp",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/src/algorithm/arith_coder/bitstreamer.c",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/WDH_reference/program/nbc_codec_sink.c",
+		"/scratch/workspaces/nbc_update/implement/block_nbc_fw/wrk_abol_update_4419/src/algorithm/arith_coder/uint48_t.c"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"/scratch/workspaces/nbc_arith/implement/block_nbc_fw/wrk_jeka_arith_enc/NBC_reference/LC3_src_v5536_Eval_20171110",
+			"",
+			"/scratch/workspaces/fu_tests/test/xdsp_fu_test",
+			"*.m",
+			".m",
+			"*.m",
+			"",
+			"*.cpp",
+			"",
+			"*",
+			"",
+			"/scratch/workspaces/wrkIirDemo/dspws/implement/aurora_adsp_settings_calculation/main/build/release_fp",
+			"<project>",
+			"/home/jeka/Perforce/jeka_kbnuxsrv231_2270/depot/home/p4kursus/components/hello"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#else",
+			"ifndef",
+			"endif",
+			"ifdef",
+			"L_mac0(",
+			"L_mac0",
+			"ac_dec_spl",
+			"ac_encode_fx",
+			" test(",
+			"test(",
+			"ac_enc_mux",
+			"processQuantizeSpec_fx",
+			"Tab_esc_nb",
+			"Tab_esc_nb\\s.*=",
+			"Tab_esc_nb\\s*=",
+			"Tab_esc_nb\\w=",
+			"Tab_esc_nb =",
+			"Tab_esc_nb=",
+			"Tab_esc_nb?",
+			"Tab_esc_nb",
+			"BDMA_IN_1",
+			"setupInputData",
+			"InputStimuli",
+			"writeBDMAStimuliTrigger",
+			"generateDUTStimuli",
+			"writeStimuli",
+			"setThroughAccessLayer",
+			"saveSweepPointResult",
+			"TestUnitBase",
+			"intFormat",
+			"intformat",
+			"intformart",
+			"print_for",
+			"print_bit",
+			"fac_",
+			"freq",
+			", *cumfreq, *freq)",
+			"unpack_freq_cumfreq",
+			"lookup",
+			"print_formatted_bytes",
+			"unpack_freq_cumfreq",
+			"fac_ns",
+			";\n",
+			"NBC_SINK_NOISE_FACTOR_INPUTS_X_E",
+			"111",
+			"type",
+			"x_e",
+			"int24",
+			"x_e",
+			"int24",
+			"levinson",
+			"encoder",
+			"encoder_",
+			"evaluateWithAllowedError",
+			"coords",
+			"passfailevaluator",
+			"bitstreamerangle",
+			"bitstreamer",
+			"angle",
+			"bitstreamer",
+			"angle",
+			"uint16fi",
+			"uint16",
+			"encoder_top",
+			"version",
+			"% simP.paramSweep{1}.num_bits     = {7};\n\n% simP.paramSweep{2}.N_runs       = {4};\n\n% simP.paramSweep{3}.bit_swap = {0};\n\n% simP.paramSweep{4}.align        = {7};\n% simP.paramSweep{4}.rounding     = {1};\n% simP.paramSweep{4}.sign_ext     = {1};\n\n% simP.paramSweep{5}.dir          = {0};\n% simP.paramSweep{5}.w_ptr        = {1};\n% simP.paramSweep{5}.b_ptr        = {23};\n\n",
+			"DEBUG_NATIVE_BITSTREAMER_UNPACK_STREAM",
+			"map",
+			"dimension=\"",
+			"dimensions=\"",
+			"convertertop",
+			"topconverter",
+			"intformat",
+			"BITSTREAMER_INLINE",
+			"alg_eks",
+			"bitstreamer/alg",
+			"alg_mult_eks",
+			"num_bits",
+			"map",
+			"b_ptr",
+			"singlefix",
+			"single",
+			"vector",
+			"single",
+			"main",
+			"aurora2cs3_main",
+			"main",
+			"rel_aurora2cs4fw6",
+			"aurora2cs3_main",
+			"main",
+			"Main",
+			"main",
+			"rb_8",
+			"rb_",
+			"orig_word",
+			"in",
+			"self.b_",
+			"self.w_",
+			"w_ptr",
+			"b_ptr",
+			"<?",
+			"intFormat",
+			"test",
+			"inttype",
+			"setupInputData",
+			"phasesOfExport",
+			"runDUTasRef",
+			"alg_eks",
+			"alg_mult_eks",
+			"sr_overflow_cnt",
+			"est_global_gain_process",
+			"WDH_reference",
+			"nbc_ref_codec",
+			"lib_ref_nbc_codec",
+			"FAILED",
+			"failed",
+			"main",
+			"write_bit_backward",
+			"n: ",
+			"printf(\"n: ",
+			"n: ",
+			"notabs",
+			" << 8 | DEBUG_BDMA)",
+			"DEBUG_NATIVE",
+			" << 8| DEBUG_BDMA)",
+			"%d",
+			"bitstream_dist",
+			"n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ra_encode_state_init",
+			"ra_decode",
+			"ra_encode",
+			"NBC_SINK",
+			"log_this = 0",
+			"nbbits",
+			"\\n",
+			"dec_init_state_init(",
+			"log_this = 0",
+			"arith_coder_enc_state_t",
+			"arith_coder_dsp_state_t",
+			"arith_coder_param_t",
+			"ARITH_ENC_INLINE",
+			" ARITH_ENC_INLINE",
+			" ",
+			";\\n",
+			"{",
+			",",
+			" ",
+			"')...",
+			"",
+			"') hex2dec('",
+			"",
+			"...\\n",
+			"...",
+			"') hex2dec('",
+			") hex2dec(",
+			"",
+			" ",
+			";\\n",
+			";",
+			" ",
+			"\\];\\n\\[",
+			"}",
+			"{",
+			"}",
+			"",
+			"{",
+			"}",
+			"carry_count",
+			"ncarry",
+			"",
+			"enc_state.nres_bits",
+			"mask",
+			"bp",
+			"]",
+			"enc_state.tns_idx[",
+			"enc_state.res_bits_buf[",
+			"] ",
+			"enc_state.spec[",
+			";\\n\\*\\(\\*tns_idx\\+",
+			") = ",
+			";\\n\\*\\(\\*resQdata\\+",
+			";\\n\\*\\(\\*lpc_idx\\+",
+			") = ",
+			"\\n\\*\\(\\*x\\+",
+			";\\n",
+			"\\) = ",
+			"\\n\\*\\(\\*ptr\\+",
+			"",
+			")",
+			"(",
+			"",
+			"];\\n*(filter_16k_rearr_ptr++) = filter_16k_rearr[",
+			"*(filter_16k_rearr_ptr++) = filter_16k_rearr[",
+			"",
+			"\\n",
+			"    ",
+			"fac_dn",
+			"fac_up",
+			",",
+			",0x",
+			"0x",
+			",",
+			"fix_24_5",
+			"",
+			"if ((get_status_register() & XDSP_SR_OVERFLOW_SHIFT) > 0)",
+			"if ((get_status_register() &6 XDSP_SR_OVERFLOW_SHIFT) > 0)",
+			"tmp_check_overflow(XXXXXXX)",
+			"sos2",
+			"sos1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/scratch/git/deep_town_crafting_hours"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 62.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 118.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 496.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"24b",
+				"implement/block_nbc_fw/wrk_jeka_arith_enc/src/algorithm/arith_coder/range_coder_24b.cpp"
+			],
+			[
+				"testpoi",
+				"tool/esw_test_tool/main/src/matlab/TestPoint.m"
+			],
+			[
+				"ref_sindef",
+				"implement/block_nbc_fw/wrk_abol_update_4419/WDH_reference/program/ref_sink_define.h"
+			],
+			[
+				"resam",
+				"implement/block_nbc_fw/wrk_abol_update_4419/src/algorithm/resamp12k8/resamp12k8.cpp"
+			],
+			[
+				"bitstre",
+				"implement/block_nbc_fw/wrk_abol_update_4419/src/algorithm/arith_coder/bitstreamer.c"
+			],
+			[
+				"arith",
+				"implement/block_nbc_fw/wrk_abol_update_4419/src/algorithm/arith_coder/arith_coder.cpp"
+			],
+			[
+				"range_",
+				"implement/block_nbc_fw/wrk_abol_update_4419/src/algorithm/arith_coder/range_coder_32b.cpp"
+			],
+			[
+				"refsink",
+				"implement/block_nbc_fw/wrk_abol_update_4419/WDH_reference/util/ref_sink.c"
+			],
+			[
+				"nbc_input.wav",
+				"implement/block_nbc_fw/wrk_abol_update_3758/build/release_fix/test/unit_test/TestUnitArithEncoder/nbcRefSimdata/nbc_input.wav"
+			],
+			[
+				"uin",
+				"implement/block_nbc_fw/wrk_abol_update_3758/src/algorithm/arith_coder/uint48_t.c"
+			],
+			[
+				"bitstrea",
+				"implement/block_nbc_fw/wrk_abol_update_3758/src/algorithm/arith_coder/bitstreamer.c"
+			],
+			[
+				"xdsp_chess.h",
+				"processors/aurora_xdsp_dsp/rc_2014.09.30/active/bpm/lib_build/xdsp_chess.h"
+			],
+			[
+				"pm_adap",
+				"library/aurora_systemc_vsp/rc_2014.09.30/src/vsp/target/adapter/pm_adapter_sc.cpp"
+			],
+			[
+				"setup_enc_nbc",
+				"implement/block_nbc_fw/main/WDH_reference/NBCodec/Setup_Enc_NBC.h"
+			],
+			[
+				"noise_fa",
+				"implement/block_nbc_fw/main/WDH_reference/NBCodec/noise_factor_fx.c"
+			],
+			[
+				"stl.",
+				"implement/block_nbc_fw/main/WDH_reference/NBCodec/basic_op/stl.h"
+			],
+			[
+				"defines.h",
+				"implement/block_nbc_fw/main/WDH_reference/NBCodec/defines.h"
+			],
+			[
+				"setup_enc_nbc.h",
+				"implement/block_nbc_fw/main/WDH_reference/NBCodec/Setup_Enc_NBC.h"
+			],
+			[
+				"enc_nbc.h",
+				"implement/block_nbc_fw/main/WDH_reference/NBCodec/Enc_NBC.h"
+			],
+			[
+				"ref_sink_define.h",
+				"implement/block_nbc_fw/main/WDH_reference/program/ref_sink_define.h"
+			],
+			[
+				"top_mce_",
+				"dspws/implement/aurora_dir1_fw/wrk_jeka_sil_17_2/build/release_fix/src/program/dir1_core/config/default/_top_mce_activation.cpp"
+			],
+			[
+				"top_init",
+				"dspws/implement/aurora_dir1_fw/wrk_jeka_sil_17_2/src/algorithm/dir_top/dir_top_init.cpp"
+			],
+			[
+				"create_tb_opt.m",
+				"dspws/concept/aurora_dsp/sil_17_2/test/tb_ts/idsp_test_signalpath/create_tb_opt.m"
+			],
+			[
+				"_top_mce_activation.cpp",
+				"dspws/implement/aurora_dir1_fw/wrk_jeka_sil_17_2/build/release_fp/src/program/dir1_core/config/default/_top_mce_activation.cpp"
+			],
+			[
+				"unit_te",
+				"dspws/implement/aurora_dir1_fw/wrk_jeka_sil_17_2/src/program/unit_test/systemc/unit_test_sc.h"
+			],
+			[
+				"freq_shift",
+				"dspws/implement/aurora_fbsp_fw/wrk_wbdfc_jeka_complex_iir_filters/src/algorithm/freq_shift/freq_shift.cpp"
+			],
+			[
+				"profile.f",
+				"dspws/implement/aurora_fbsp_fw/wrk_wbdfc_jeka_complex_iir_filters/build/release_target/test/fbsp_core/TestFBSPComplexIIR/simdata_target/release/profile.fpr"
+			],
+			[
+				"profile.fpr",
+				"dspws/implement/aurora_fbsp_fw/wrk_wbdfc_jeka_complex_iir_filters/build/release_target/test/fbsp_core/TestFBSPComplexIIR/simdata_target/release/profile.fpr"
+			],
+			[
+				"evaluatenoi",
+				"dspws/tool/esw_test_tool/rel_5.11.0/src/matlab/evaluateNoise.m"
+			],
+			[
+				".fpr",
+				"dspws/implement/aurora_fbsp_fw/wrk_wbdfc_jeka_complex_iir_filters/build/release_target/test/fbsp_core/TestFBSPComplexIIR/simdata_target/release/profile.fpr"
+			],
+			[
+				"system",
+				"dspws/library/systemc/rel_2014.09.30.c/include/systemc.h"
+			],
+			[
+				"iir_filter",
+				"dspws/implement/aurora_fbsp_fw/wrk_wbdfc_jeka_complex_iir_filters/src/algorithm/iir_filter/iir_filter.h"
+			],
+			[
+				"iir_",
+				"dspws/implement/aurora_fbsp_fw/wrk_wbdfc_jeka_complex_iir_filters/src/algorithm/iir_filter/iir_filter.cpp"
+			],
+			[
+				"fix/release/trace.log",
+				"dspws/implement/aurora_fbsp_fw/wrk_wbdfc_jeka_complex_iir_filters/build/release_fp/test/fbsp_core/TestFBSPComplexIIR/simdata_fp/release/trace.log"
+			],
+			[
+				"",
+				"dspws/implement/aurora_fbsp_fw/wrk_wbdfc_jeka_complex_iir_filters/src/program/fbsp_core/systemc/fbsp_core_sc.h"
+			],
+			[
+				"fbsp_core",
+				"dspws/implement/aurora_fbsp_fw/wrk_wbdfc_jeka_complex_iir_filters/src/program/fbsp_core/fbsp_core_data.cpp"
+			],
+			[
+				"top_pat",
+				"dspws/implement/aurora_fbsp_fw/wrk_wbdfc_jeka_complex_iir_filters/src/algorithm/top_part2/top_part2.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/scratch/workspaces/nbc_arith/nbc_arith.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 357.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"iir_filter",
+				"iir_filter_init"
+			],
+			[
+				"top_part",
+				"top_part2"
+			],
+			[
+				"iir_fil",
+				"iir_filter"
+			],
+			[
+				"sink",
+				"debug_sink"
+			]
+		],
+		"width": 604.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 371.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "enrichment": {"amount": "4"},
+    "jewelCrafting": {"amount": "2"},
+    "chemistry": {"amount": "4"},
+    "crafting": {"amount": "6"},
+    "smelting": {"amount": "8"},
+    "chemicalMining": {"amount": "1"},
+    "mining": {"amount": "1"},
+    "oilPumping": {"amount": "1"},
+    "greenhouse": {"amount": "4"},
+    "shop": {"amount": "1"},
+    "waterCollection": {"amount": "1"}
+
+}
