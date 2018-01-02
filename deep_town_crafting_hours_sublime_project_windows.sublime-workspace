@@ -1,0 +1,467 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"stock_per_acc_c_hrs〔variable〕"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.py",
+			"settings":
+			{
+				"buffer_size": 3069,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "syn",
+		"selected_items":
+		[
+			[
+				"syn",
+				"Sync Settings: Download"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Install Package Control"
+			]
+		],
+		"width": 592.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/jeka/Documents/git/deep_town_crafting_hours"
+	],
+	"file_history":
+	[
+		"/C/Users/jeka/Documents/git/deep_town_crafting_hours/materials.json",
+		"/C/Users/jeka/Documents/git/deep_town_crafting_hours/crafters.json",
+		"/C/Users/jeka/Documents/git/deep_town_crafting_hours/main.py",
+		"//kbnnt6.emea.demant.com/home/jeka/W7MyDocuments/git/deep_town_crafting_hours/materials.json",
+		"//kbnnt6.emea.demant.com/home/jeka/W7MyDocuments/git/deep_town_crafting_hours/crafters.json",
+		"//kbnnt6.emea.demant.com/home/jeka/W7MyDocuments/git/deep_town_crafting_hours/main.py",
+		"//kbnnt6.emea.demant.com/home/jeka/W7MyDocuments/git/deep_town_crafting_hours/c-hrs.sublime-workspace",
+		"/C/Users/jeka/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/UF0RT7AC/fpmult_failed_float.txt",
+		"/C/Users/jeka/AppData/Local/Temp/bash_profile",
+		"//kbnnt6.emea.demant.com/home/jeka/W7MyDocuments/target_errors.txt",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp/fpmult_failed_float.txt",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp/vector_shift_right_failed_float.txt",
+		"//kbnpdnap01.emea.demant.com/jeka/scratchpad.txt",
+		"/C/Users/jeka/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/UF0RT7AC/ATT00001.txt",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/common/dsp/component/tool/esw_test_tool/main/src/matlab/TestControl#16.m",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp/profile_dec_24.fpr",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp/profile_dec_32_ESALU_no_inline.fpr",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/test/processor_fu_test/esw_main/src/program/afb_accu_fu_test/systemc/afb_accu_fu_test_sc#1.cpp",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/test/processor_fu_test/esw_main/src/program/afb_accu_fu_test/systemc/afb_accu_fu_test_sc#1.h",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/test/processor_fu_test/esw_main/src/program/afb_accu_fu_test/afb_accu_fu_test_param#1.cpp",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/test/processor_fu_test/esw_main/src/program/afb_accu_fu_test/afb_accu_fu_test_data#1.cpp",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/common/dsp/component/tool/esw_test_tool/main/src/matlab/interleaved_to_dbl_prec#1.m",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/common/dsp/component/tool/esw_test_tool/main/src/matlab/@DUTAccessLayer/DUTAccessLayer#9.m",
+		"/C/Users/jeka/AppData/Roaming/Sublime Text 3/Packages/User/SyncSettings.sublime-settings",
+		"/C/Program Files/Sublime Text 3/changelog.txt",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/test/processor_fu_test/main/src/program/overflow_flags_fu_test/overflow_flags_fu_test#1.cpp",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/aurora_xdsp_fw/rb_8/test/xdsp_core/TestXdspFl#1.m",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/common/dsp/component/concept/aurora_configuration_package/main/scripts/python/flowrider_api_builder#17.py",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/test/processor_fu_test/esw_main/src/program/cordic_fu_test/cordic_fu_test#3.cpp",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/test/processor_fu_test/esw_main/src/program/level_estimator_fu_test/level_estimator_fu_test#5.cpp",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/test/processor_fu_test/esw_main/src/program/afb_accu_fu_test/afb_accu_fu_test#6.cpp",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp/old/range_coder_24b.cpp",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp/profile_dec_32_ESALU_inline.fpr",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp/profile_enc_32.fpr",
+		"/C/Users/jeka/AppData/Roaming/Sublime Text 3/Packages/Sync Settings/SyncSettings.sublime-settings",
+		"/C/Users/jeka/Documentum/Viewed/THIS CABINET IS NOT INTENDED FOR STORING DATA.txt",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp/arith_coder.cpp",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp/range_coder_24b.cpp",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp/uint48_t.c",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp/profile_dec_32.fpr",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp/tmp.txt",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp/profile_24b.fpr",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp/profile.fpr",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp/profile_32b.fpr",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp/profile_enc_24.fpr",
+		"//kbnpdnap01.emea.demant.com/jeka/profile_32b.fpr",
+		"/C/Users/jeka/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/UF0RT7AC/profile_24b.fpr",
+		"/C/Users/jeka/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/UF0RT7AC/result.txt",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/greenhouse/dsp/concept/aurora_pdm_effects_top/main/src/pdm/actionsInterface/actionsInterface/ReadBondingList#3.xuda",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/greenhouse/dsp/concept/aurora_pdm_effects_top/main/src/pdm/actionsInterface/actionsInterface/DeleteBonding#2.xuda",
+		"//kbnnt6.emea.demant.com/home/jeka/W7MyDocuments/tmp/arith_coder_new.c",
+		"//kbnnt6.emea.demant.com/home/jeka/W7MyDocuments/tmp/profile.fpr",
+		"//kbnnt6.emea.demant.com/home/jeka/W7MyDocuments/tmp/arith_coder.cpp",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/wrk_abol_update_3758/NBC_reference/NBC_src_v3758_Eval_20170512/BTcodec/basic_op/typedefs#1.h",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/wrk_abol_update_3758/NBC_reference/NBC_src_v3758_Eval_20170512/BTcodec/basic_op/enh40#1.c",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/wrk_abol_update_3758/NBC_reference/NBC_src_v3758_Eval_20170512/BTcodec/basic_op/enh1632#1.c",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/wrk_abol_update_3758/NBC_reference/NBC_src_v3758_Eval_20170512/BTcodec/basic_op/enhUL32#1.c",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/wrk_abol_update_3758/NBC_reference/NBC_src_v3758_Eval_20170512/BTcodec/basic_op/basop32#1.c",
+		"/C/Gearbox training/Training 101/circle.metax",
+		"/F/Temp/JEKA/AGC_compression_time.m",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/main/src/algorithm/resamp12k8/resamp12k8_init#3.cpp",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/test/es_aurora_app_test/rb_7/+FittingSupport/@SafetyMute/SafetyMute#3.m",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/aurora_afb_fw/rb_7/test/afb_core/TestAFBIagc#1.m",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/aurora_xdsp_fw/rb_7/test/xdsp_core/TestXdspAudioSequencer#2.m",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/main/WDH_reference/NBCodec/ari_codec#1.c",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/main/WDH_reference/NBCodec/constants#1.c",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/main/WDH_reference/NBCodec/constants#1.h",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/main/src/algorithm/arith_enc/arith_enc#1.cpp",
+		"/C/Users/jeka/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/UF0RT7AC/profile_arenc_uniform.fpr",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/main/src/algorithm/arith_enc/arith_enc#5.cpp",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/greenhouse/dsp/concept/aurora_pdm_effects_top/main/src/pdm/actionsInterface/actionsInterface/actionsInterfaceEnsemble#21.corona",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp.txt",
+		"//kbnpdnap01.emea.demant.com/jeka/stop_and_commit_live_mic_level_calibration.xuda",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp/function_low_pc.txt",
+		"//kbnpdnap01.emea.demant.com/jeka/tmp/arith_coder_new.c",
+		"//kbnpdnap01.emea.demant.com/jeka/.bash_profile.old",
+		"//kbnpdnap01.emea.demant.com/jeka/.bash_profile",
+		"//kbnpdnap01.emea.demant.com/jeka/setup.bash",
+		"/C/Users/jeka/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/UF0RT7AC/profile_ari_codec_calculations_inlined.fpr",
+		"/C/Users/jeka/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/UF0RT7AC/profile_ari_codec_calculations_inlined (002).fpr",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/main/src/algorithm/arith_coder/arith_enc#1.cpp",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/aurora_td_fw/rb_7/test/td_core/defaultPSpec/defaultPSpec#1.m",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/aurora_td_fw/rb_7/test/td_core/biquad#1.m",
+		"/C/Users/jeka/AppData/Local/Temp/Temp1_ari.zip/model_metrics.h",
+		"/C/Users/jeka/AppData/Local/Temp/testspec_afb_ca-1.xml",
+		"/C/Users/jeka/AppData/Local/Temp/testspec_afb_dspp.xml",
+		"/C/Users/jeka/AppData/Local/Temp/testspec_freq_shift.xml",
+		"/C/Users/jeka/AppData/Local/Temp/TestAFBIagc.m",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/main/src/algorithm/resamp12k8/resamp12k8_init#1.cpp",
+		"/C/Users/jeka/AppData/Local/Temp/p4v/KBN-JEKA-WX_perforce.emea.demant.com_5000/depot/projects/aurora/dsp/component/implement/block_nbc_fw/main/src/algorithm/resamp12k8/resamp12k8_init#2.cpp",
+		"/C/Users/jeka/AppData/Local/Microsoft/Windows/INetCache/IE/TS18FPZ6/SeCom flytning.mpp"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"[A-z\\-]* .*\\n",
+			"[A-z\\-]* "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"[A-z\\-]* \\- .*\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3069,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "deep_town_crafting_hours_sublime_project_windows.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sc",
+				"\\\\kbnpdnap01.emea.demant.com\\jeka\\scratchpad.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 242.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
