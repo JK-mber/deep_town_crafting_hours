@@ -256,18 +256,6 @@
       ]
    },
    {
-      "name":"charcoal",
-      "source":"smelting",
-      "time":"60",
-      "batch":"50",
-      "toMake":[
-         {
-            "thing":"tree",
-            "quantity":"1"
-         }
-      ]
-   },
-   {
       "name":"goldBar",
       "source":"smelting",
       "time":"60",
@@ -773,7 +761,7 @@
       ]
    },
    {
-      "name":"hydrogenoxygen",
+      "name":"oxygen",
       "source":"chemistry",
       "time":"900",
       "value":"800",

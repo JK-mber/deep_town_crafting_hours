@@ -1,4 +1,5 @@
 import json
+import pdb
 
 KEEP_STOCK_TIME_RATIO = 0.25
 
@@ -12,7 +13,7 @@ class Material:
         self.accu_crafting_time = None
         self.batch = 1
         self.stock_per_acc_c_hrs = 0
-        self.stock_to_keep = 0;
+        self.stock_to_keep = 0
 
         if 'toMake' in raw_mat_dict:
             self.to_make = {}
@@ -28,32 +29,58 @@ class Material:
         if 'batch' in raw_mat_dict:
             self.batch = int(raw_mat_dict['batch'])
 
-    def get_accu_crafting_time(self, mat_dict, crafters):
+    def get_accu_crafting_time(self, mat_dict, crafters, debug_this=False):
+
+        if debug_this:
+            print("get_accu_crafting_time() called")
         if self.accu_crafting_time is None:
-            accu_crafting_time = self.time / int(crafters[self.source]['amount'])
+            accu_crafting_time = self.time \
+                / int(crafters[self.source]['amount'])
             if self.to_make is not None:
                 for mat in self.to_make:
                     # if (print_level): print()
                     # if (print_level): print(accu_crafting_time)
+                    if debug_this:
+                        print('Running nested get_accu_crafting_time for mat ' + m)
                     accu_crafting_time += \
-                        mat_dict[mat].get_accu_crafting_time(mat_dict, crafters) \
+                        mat_dict[mat].get_accu_crafting_time(mat_dict, crafters, debug_this) \
                         * self.to_make[mat]
                     # if (print_level): print(accu_crafting_time)
-
-            self.accu_crafting_time = accu_crafting_time / self.batch
+            accu_crafting_time = accu_crafting_time / self.batch
+            self.accu_crafting_time = accu_crafting_time
             if accu_crafting_time != 0:
-                self.stock_per_acc_c_hrs = 1*60*60/accu_crafting_time
+                self.stock_per_acc_c_hrs = 1 * 60 * 60 / self.accu_crafting_time
+                if debug_this:
+                    print("Calculated stock: " + str(self.stock_per_acc_c_hrs))
 
+        if debug_this:
+            pdb.set_trace()
         return self.accu_crafting_time
 
-    def update_stock_to_keep(self, mat_dict, crafters, amount=None):
+    def update_stock_to_keep(self, mat_dict, crafters, amount=None, debug_this=False):
+
+        if debug_this:
+            print("update_stock_to_keep called")
+
         if amount is None:
             amount = self.stock_per_acc_c_hrs
 
-        if self.time/int(crafters[self.source]['amount']) > KEEP_STOCK_TIME_RATIO * self.accu_crafting_time:
+            if debug_this:
+                print("amount set: " + str(amount))
+        else:
+
+            if debug_this:
+                print("amount inherited: " + str(amount))
+
+
+        if self.time / int(crafters[self.source]['amount']) > KEEP_STOCK_TIME_RATIO * self.accu_crafting_time:
             keep_stock = True
         else:
             keep_stock = False
+
+        if debug_this:
+            print("Keep stock set: " + str(keep_stock))
+
         # print('amount: ' + str(amount))
         # print('stock_to_keep: ' + str(self.stock_to_keep))
         if keep_stock:
@@ -61,9 +88,18 @@ class Material:
         else:
             if self.to_make is not None:
                 for mat in self.to_make:
+                    if debug_this:
+                        print(">>>")
                     # print('mat: ' + mat)
                     # print('self.to_make: ' + str(self.to_make))
-                    mat_dict[mat].update_stock_to_keep(mat_dict, crafters, self.to_make[mat] * amount)
+                    mat_dict[mat].update_stock_to_keep(
+                        mat_dict, crafters, self.to_make[mat] * amount / self.batch, debug_this)
+                    if debug_this:
+                        print("<<<")
+
+        if debug_this:
+            print("update_stock_to_keep done. self.__dict__:")
+            print(self.__dict__)
 
 
 def load_mats():
@@ -83,6 +119,7 @@ def load_crafters():
     crafters = json.loads(crafters_file.read())
     return crafters
 
+
 mats = load_mats()
 crafters = load_crafters()
 
@@ -90,33 +127,35 @@ crafters = load_crafters()
 # print('Accumulated crafting time:')
 for m in mats:
     # print(m)
-    mats[m].get_accu_crafting_time(mats, crafters)
+    debug_this = False
+    mats[m].get_accu_crafting_time(mats, crafters, debug_this)
     # print(m + ': ' + str(mats[m].get_accu_crafting_time(mats)))
+
+print(mats['sulfuricAcid'].__dict__)
 
 for m in mats:
     # print('Callling update_stock_to_keep() for mat: ' + m)
-    mats[m].update_stock_to_keep(mats, crafters)
+    debug_this = m == "gunpowder"
+    if debug_this:
+        print("Debugging update_stock_to_keep() for mat " + m)
+    mats[m].update_stock_to_keep(mats, crafters, debug_this=debug_this)
     # import pdb; pdb.set_trace()
 
 
 mats_sorted = sorted(mats.items(), key=lambda x: x[1].accu_crafting_time)
-for mat in mats_sorted:
-    # pass
-    if mat[1].accu_crafting_time != 0:
-        print(mat[0] + ": " + str(60*60*250/mat[1].accu_crafting_time))
 
-
-with open('crafting_hours.csv','w') as f:
-    f.write('Material,Accumulated crafting time,Amount (1 crafting hour),Stock to keep (1 crafting hr),Amount (250 crafting hours),Stock to keep (250 crafting hrs)\n')
+with open('crafting_hours.csv', 'w') as f:
+    f.write('Material,Source,Accumulated crafting time,Amount (1 chrs),Stock to keep (1 chrs),Amount (7cdays),Stock to keep (7cdays)\n')
     for m in mats_sorted:
         try:
-            crafting_hr_amount = 60*60/m[1].accu_crafting_time
+            crafting_hr_amount = 60 * 60 / m[1].accu_crafting_time
+            f.write(str(m[0]) + ',' + str(m[1].source) + ',' + str(m[1].accu_crafting_time) + ',' + str(crafting_hr_amount) + ',' + str(
+                m[1].stock_to_keep) + ',' + str(7 * 24 * crafting_hr_amount) + ',' + str(m[1].stock_to_keep * 7 * 24) + '\n')
         except ZeroDivisionError:
-            crafting_hr_amount = 0
+            pass
 
-        f.write(str(m[0]) +','+ str(m[1].accu_crafting_time) +','+ str(crafting_hr_amount)  +','+ str(m[1].stock_to_keep) +','+ str(250*crafting_hr_amount)  +','+ str(m[1].stock_to_keep*250) + '\n')
 
-import pdb; pdb.set_trace()
+# pdb.set_trace()
 # return mats
 
 
