@@ -124,6 +124,7 @@ class MaterialBundle:
 
         if save_to_csv:
             with open('crafting_hours.csv', 'w') as f:
+                f.write('Material,Source,Tot. Scaled c-time (s),Stock to keep (7 c-days)')
                 for line in table_lines:
                     f.write(','.join([str(i) for i in line]) + '\n')
 
