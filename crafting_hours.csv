@@ -1,4 +1,5 @@
-Material,Source,Tot. Scaled c-time (s),Stock to keep (7 c-days)CopperBar,Smelting,1.25,607902
+Material,Source,Tot. Scaled c-time (s),Stock to keep (7 c-days)
+CopperBar,Smelting,1.25,607902
 IronBar,Smelting,1.875,384591
 AluminumBar,Smelting,1.875,326542
 GoldBar,Smelting,7.5,131040
@@ -12,9 +13,9 @@ PolishedAmber,JewelCrafting,7.5,80640
 PolishedDiamond,JewelCrafting,15.0,76963
 PolishedAmethyst,JewelCrafting,15.0,62313
 PolishedAlexandrite,JewelCrafting,15.0,54982
+PolishedRuby,JewelCrafting,15.0,40320
 PolishedTopaz,JewelCrafting,15.0,40320
 PolishedSapphire,JewelCrafting,15.0,40320
-PolishedRuby,JewelCrafting,15.0,40320
 AmberBracelet,JewelCrafting,45.0,13440
 EmeraldRing,JewelCrafting,90.0,6720
 HairComb,JewelCrafting,412.5,0
@@ -35,12 +36,12 @@ Battery,Crafting,23.125,26154
 InsulatedWire,Crafting,34.125,25068
 Lamp,Crafting,38.75,22952
 Motherboard,Crafting,525.0,1152
-Bomb,Crafting,1805.3125,0
-Gear,Crafting,213.875,0
-DiamondCutter,Crafting,134.375,0
 Circuit,Crafting,97.5,0
-GreenLaser,Crafting,16.575,0
+Gear,Crafting,213.875,0
 SolarPanel,Crafting,832.5,0
+GreenLaser,Crafting,16.575,0
+Bomb,Crafting,1805.3125,0
+DiamondCutter,Crafting,134.375,0
 SolidPropellant,Crafting,1518.75,0
 Titanium,Chemistry,12.4,114799
 Hydrogen,Chemistry,195.0,7949
@@ -50,6 +51,6 @@ SulfuricAcid,Chemistry,615.0,2509
 Oxygen,Chemistry,390.0,1551
 Ethanol,Chemistry,905.625,1439
 Plastic,Chemistry,2581.575,0
-RefinedOil,Chemistry,2415.0,0
 Gunpowder,Chemistry,144.28125,0
+RefinedOil,Chemistry,2415.0,0
 DiethylEther,Chemistry,1535.625,0
