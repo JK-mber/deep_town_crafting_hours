@@ -52,6 +52,10 @@
       "source":"Mining"
    },
    {
+      "name":"Obsidian",
+      "source":"Mining"
+   },
+   {
       "name":"Amethyst",
       "source":"Mining"
    },
@@ -94,6 +98,17 @@
       ]
    },
    {
+      "name":"PolishedObsidian",
+      "source":"JewelCrafting",
+      "time":"60",
+      "to_make":[
+         {
+            "thing":"Obsidian",
+            "quantity":"5"
+         }
+      ]
+   },
+   {
       "name":"Titanium",
       "source":"Chemistry",
       "time":"20",
@@ -106,6 +121,26 @@
          {
             "thing":"TitaniumOre",
             "quantity":"100"
+         }
+      ]
+   },
+   {
+      "name":"LiquidNitrogen",
+      "source":"Chemistry",
+      "time":"120",
+      "batch":"4",
+      "to_make":[
+         {
+            "thing":"AluminumBottle",
+            "quantity":"1"
+         },
+         {
+            "thing":"Nitrogen",
+            "quantity":"10"
+         },
+         {
+            "thing":"Compressor",
+            "quantity":"1"
          }
       ]
    },
@@ -155,6 +190,63 @@
          },
          {
             "thing":"TitaniumBar",
+            "quantity":"1"
+         }
+      ]
+   },
+   {
+      "name":"Compressor",
+      "source":"Crafting",
+      "time":"180",
+      "to_make":[
+         {
+            "thing":"RefinedOil",
+            "quantity":"2"
+         },
+         {
+            "thing":"Rubber",
+            "quantity":"1"
+         },
+         {
+            "thing":"IronBar",
+            "quantity":"5"
+         }
+      ]
+   },
+   {
+      "name":"OpticFiber",
+      "source":"Crafting",
+      "time":"120",
+      "to_make":[
+         {
+            "thing":"Silicon",
+            "quantity":"10"
+         },
+         {
+            "thing":"Oxygen",
+            "quantity":"10"
+         },
+         {
+            "thing":"Plastic",
+            "quantity":"1"
+         }
+      ]
+   },
+   {
+      "name":"DryIce",
+      "source":"Crafting",
+      "time":"120",
+      "to_make":[
+         {
+            "thing":"Graphite",
+            "quantity":"1000"
+         },
+         {
+            "thing":"GreenLaser",
+            "quantity":"10"
+         },
+         {
+            "thing":"Compressor",
             "quantity":"1"
          }
       ]
@@ -574,6 +666,13 @@
       "value":"100"
    },
    {
+      "name":"Nitrogen",
+      "source":"ChemicalMining",
+      "time":"0",
+      "batch":"5",
+      "value":"100"
+   },
+   {
       "name":"Oil",
       "source":"OilPumping",
       "value":"21"
@@ -826,6 +925,26 @@
          {
             "thing":"GoldBar",
             "quantity":"1"
+         }
+      ]
+   },
+   {
+      "name":"ObsidianKnife",
+      "source":"JewelCrafting",
+      "time":"120",
+      "value":"450",
+      "to_make":[
+         {
+            "thing":"PolishedObsidian",
+            "quantity":"50"
+         },
+         {
+            "thing":"SilverBar",
+            "quantity":"1"
+         },
+         {
+            "thing":"Tree",
+            "quantity":"2"
          }
       ]
    },

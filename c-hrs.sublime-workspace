@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Alim",
+				"AluminumBottle"
+			],
+			[
 				"tot_",
 				"tot_ctime\tstatement"
 			],
@@ -510,20 +514,19 @@
 			[
 				"itn16",
 				"int16"
-			],
-			[
-				"dec_",
-				"dec_init_24b_values"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"contents": "[\n   {\n      \"name\":\"Coal\",\n      \"source\":\"Mining\"\n   },\n   {\n      \"name\":\"Copper\",\n      \"source\":\"Mining\"\n   },\n   {\n      \"name\":\"Amber\",\n      \"source\":\"Mining\"\n   },\n   {\n      \"name\":\"Iron\",\n      \"source\":\"Mining\"\n   },\n   {\n      \"name\":\"Aluminum\",\n      \"source\":\"Mining\"\n   },\n   {\n      \"name\":\"Silver\",\n      \"source\":\"Mining\"\n   },\n   {\n      \"name\":\"Gold\",\n      \"source\":\"Mining\"\n   },\n   {\n      \"name\":\"Emerald\",\n      \"source\":\"Mining\"\n   },\n   {\n      \"name\":\"Platinum\",\n      \"source\":\"Mining\"\n   },\n   {\n      \"name\":\"Topaz\",\n      \"source\":\"Mining\"\n   },\n   {\n      \"name\":\"Ruby\",\n      \"source\":\"Mining\"\n   },\n   {\n      \"name\":\"Diamond\",\n      \"source\":\"Mining\"\n   },\n   {\n      \"name\":\"Sapphire\",\n      \"source\":\"Mining\"\n   },\n   {\n      \"name\":\"Obsidian\",\n      \"source\":\"Mining\"\n   },\n   {\n      \"name\":\"Amethyst\",\n      \"source\":\"Mining\"\n   },\n   {\n      \"name\":\"TitaniumOre\",\n      \"source\":\"Mining\"\n   },\n   {\n      \"name\":\"Alexandrite\",\n      \"source\":\"Mining\"\n   },\n   {\n      \"name\":\"Uranium\",\n      \"source\":\"Mining\"\n   },\n   {\n      \"name\":\"UraniumRod\",\n      \"source\":\"Enrichment\",\n      \"time\":\"600\",\n      \"to_make\":[\n         {\n            \"thing\":\"Uranium\",\n            \"quantity\":\"100\"\n         },\n         {\n            \"thing\":\"Sodium\",\n            \"quantity\":\"50\"\n         }\n      ]\n   },\n   {\n      \"name\":\"PolishedAlexandrite\",\n      \"source\":\"JewelCrafting\",\n      \"time\":\"60\",\n      \"to_make\":[\n         {\n            \"thing\":\"Alexandrite\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"PolishedObsidian\",\n      \"source\":\"JewelCrafting\",\n      \"time\":\"60\",\n      \"to_make\":[\n         {\n            \"thing\":\"Obsidian\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Titanium\",\n      \"source\":\"Chemistry\",\n      \"time\":\"20\",\n      \"batch\":\"50\",\n      \"to_make\":[\n         {\n            \"thing\":\"SulfuricAcid\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"TitaniumOre\",\n            \"quantity\":\"100\"\n         }\n      ]\n   },\n   {\n      \"name\":\"LiquidNitrogen\",\n      \"source\":\"Chemistry\",\n      \"time\":\"120\",\n      \"batch\":\"4\",\n      \"to_make\":[\n         {\n            \"thing\":\"AluminumBottle\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"Nitrogen\",\n            \"quantity\":\"10\"\n         },\n         {\n            \"thing\":\"Compressor\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"DiethylEther\",\n      \"source\":\"Chemistry\",\n      \"time\":\"60\",\n      \"to_make\":[\n         {\n            \"thing\":\"SulfuricAcid\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"Ethanol\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Gunpowder\",\n      \"source\":\"Chemistry\",\n      \"time\":\"120\",\n      \"batch\":\"20\",\n      \"to_make\":[\n         {\n            \"thing\":\"DiethylEther\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"SulfuricAcid\",\n            \"quantity\":\"2\"\n         },\n         {\n            \"thing\":\"Tree\",\n            \"quantity\":\"2\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Gear\",\n      \"source\":\"Crafting\",\n      \"time\":\"80\",\n      \"to_make\":[\n         {\n            \"thing\":\"DiamondCutter\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"TitaniumBar\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Compressor\",\n      \"source\":\"Crafting\",\n      \"time\":\"180\",\n      \"to_make\":[\n         {\n            \"thing\":\"DiamondCutter\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"TitaniumBar\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Bomb\",\n      \"source\":\"Crafting\",\n      \"time\":\"120\",\n      \"to_make\":[\n         {\n            \"thing\":\"TitaniumBar\",\n            \"quantity\":\"5\"\n         },\n         {\n            \"thing\":\"Gunpowder\",\n            \"quantity\":\"10\"\n         }\n      ]\n   },\n   {\n      \"name\":\"TitaniumBar\",\n      \"source\":\"Smelting\",\n      \"time\":\"60\",\n      \"to_make\":[\n         {\n            \"thing\":\"Titanium\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"CopperBar\",\n      \"source\":\"Smelting\",\n      \"time\":\"10\",\n      \"to_make\":[\n         {\n            \"thing\":\"Copper\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"IronBar\",\n      \"source\":\"Smelting\",\n      \"time\":\"15\",\n      \"to_make\":[\n         {\n            \"thing\":\"Iron\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Glass\",\n      \"source\":\"Smelting\",\n      \"time\":\"60\",\n      \"to_make\":[\n         {\n            \"thing\":\"Silicon\",\n            \"quantity\":\"2\"\n         }\n      ]\n   },\n   {\n      \"name\":\"AluminumBar\",\n      \"source\":\"Smelting\",\n      \"time\":\"15\",\n      \"to_make\":[\n         {\n            \"thing\":\"Aluminum\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"SteelBar\",\n      \"source\":\"Smelting\",\n      \"time\":\"45\",\n      \"to_make\":[\n         {\n            \"thing\":\"IronBar\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"Graphite\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"SilverBar\",\n      \"source\":\"Smelting\",\n      \"time\":\"60\",\n      \"to_make\":[\n         {\n            \"thing\":\"Silver\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"GoldBar\",\n      \"source\":\"Smelting\",\n      \"time\":\"60\",\n      \"to_make\":[\n         {\n            \"thing\":\"Gold\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"SteelPlate\",\n      \"source\":\"Smelting\",\n      \"time\":\"120\",\n      \"to_make\":[\n         {\n            \"thing\":\"SteelBar\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Graphite\",\n      \"source\":\"Crafting\",\n      \"time\":\"5\",\n      \"value\":\"15\",\n      \"to_make\":[\n         {\n            \"thing\":\"Coal\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"CopperNail\",\n      \"source\":\"Crafting\",\n      \"time\":\"20\",\n      \"batch\":\"10\",\n      \"value\":\"10\",\n      \"to_make\":[\n         {\n            \"thing\":\"CopperBar\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Wire\",\n      \"source\":\"Crafting\",\n      \"time\":\"30\",\n      \"batch\":\"5\",\n      \"value\":\"15\",\n      \"to_make\":[\n         {\n            \"thing\":\"CopperBar\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Battery\",\n      \"source\":\"Crafting\",\n      \"time\":\"120\",\n      \"value\":\"200\",\n      \"to_make\":[\n         {\n            \"thing\":\"Amber\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"IronBar\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"CopperBar\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Circuit\",\n      \"source\":\"Crafting\",\n      \"time\":\"180\",\n      \"value\":\"2070\",\n      \"to_make\":[\n         {\n            \"thing\":\"IronBar\",\n            \"quantity\":\"10\"\n         },\n         {\n            \"thing\":\"Graphite\",\n            \"quantity\":\"50\"\n         },\n         {\n            \"thing\":\"CopperBar\",\n            \"quantity\":\"20\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Lamp\",\n      \"source\":\"Crafting\",\n      \"time\":\"80\",\n      \"value\":\"760\",\n      \"to_make\":[\n         {\n            \"thing\":\"Wire\",\n            \"quantity\":\"10\"\n         },\n         {\n            \"thing\":\"Graphite\",\n            \"quantity\":\"20\"\n         },\n         {\n            \"thing\":\"CopperBar\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Flask\",\n      \"source\":\"Crafting\",\n      \"time\":\"60\",\n      \"value\":\"800\",\n      \"to_make\":[\n         {\n            \"thing\":\"Glass\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"AmberCharger\",\n      \"source\":\"Crafting\",\n      \"time\":\"5\",\n      \"value\":\"4\",\n      \"to_make\":[\n         {\n            \"thing\":\"Amber\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"AluminumBottle\",\n      \"source\":\"Crafting\",\n      \"time\":\"30\",\n      \"value\":\"55\",\n      \"to_make\":[\n         {\n            \"thing\":\"AluminumBar\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"AmberInsulation\",\n      \"source\":\"Crafting\",\n      \"time\":\"20\",\n      \"value\":\"125\",\n      \"to_make\":[\n         {\n            \"thing\":\"Amber\",\n            \"quantity\":\"10\"\n         },\n         {\n            \"thing\":\"AluminumBottle\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"InsulatedWire\",\n      \"source\":\"Crafting\",\n      \"time\":\"200\",\n      \"value\":\"750\",\n      \"to_make\":[\n         {\n            \"thing\":\"Wire\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"AmberInsulation\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"GreenLaser\",\n      \"source\":\"Crafting\",\n      \"time\":\"20\",\n      \"batch\":\"5\",\n      \"value\":\"400\",\n      \"to_make\":[\n         {\n            \"thing\":\"PolishedEmerald\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"InsulatedWire\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"Lamp\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"DiamondCutter\",\n      \"source\":\"Crafting\",\n      \"time\":\"30\",\n      \"value\":\"5000\",\n      \"to_make\":[\n         {\n            \"thing\":\"SteelPlate\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"PolishedDiamond\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Motherboard\",\n      \"source\":\"Crafting\",\n      \"time\":\"1800\",\n      \"value\":\"17000\",\n      \"to_make\":[\n         {\n            \"thing\":\"Silicon\",\n            \"quantity\":\"3\"\n         },\n         {\n            \"thing\":\"Circuit\",\n            \"quantity\":\"3\"\n         },\n         {\n            \"thing\":\"GoldBar\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"SolidPropellant\",\n      \"source\":\"Crafting\",\n      \"time\":\"1200\",\n      \"value\":\"27000\",\n      \"to_make\":[\n         {\n            \"thing\":\"Rubber\",\n            \"quantity\":\"3\"\n         },\n         {\n            \"thing\":\"AluminumBar\",\n            \"quantity\":\"10\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Accumulator\",\n      \"source\":\"Crafting\",\n      \"time\":\"180\",\n      \"value\":\"9000\",\n      \"to_make\":[\n         {\n            \"thing\":\"Sodium\",\n            \"quantity\":\"20\"\n         },\n         {\n            \"thing\":\"Sulfur\",\n            \"quantity\":\"20\"\n         }\n      ]\n   },\n   {\n      \"name\":\"SolarPanel\",\n      \"source\":\"Crafting\",\n      \"time\":\"60\",\n      \"value\":\"69000\",\n      \"to_make\":[\n         {\n            \"thing\":\"Rubber\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"Silicon\",\n            \"quantity\":\"10\"\n         },\n         {\n            \"thing\":\"Glass\",\n            \"quantity\":\"50\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Silicon\",\n      \"source\":\"ChemicalMining\",\n      \"time\":\"0\",\n      \"batch\":\"5\",\n      \"value\":\"100\"\n   },\n   {\n      \"name\":\"Sulfur\",\n      \"source\":\"ChemicalMining\",\n      \"time\":\"0\",\n      \"batch\":\"5\",\n      \"value\":\"100\"\n   },\n   {\n      \"name\":\"Sodium\",\n      \"source\":\"ChemicalMining\",\n      \"time\":\"0\",\n      \"batch\":\"5\",\n      \"value\":\"100\"\n   },\n   {\n      \"name\":\"Oil\",\n      \"source\":\"OilPumping\",\n      \"value\":\"21\"\n   },\n   {\n      \"name\":\"Water\",\n      \"source\":\"WaterCollection\",\n      \"value\":\"5\"\n   },\n   {\n      \"name\":\"Tree\",\n      \"source\":\"Greenhouse\",\n      \"time\":\"1800\",\n      \"batch\":\"10\",\n      \"value\":\"193\",\n      \"to_make\":[\n         {\n            \"thing\":\"TreeSeed\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"Water\",\n            \"quantity\":\"10\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Liana\",\n      \"source\":\"Greenhouse\",\n      \"time\":\"1800\",\n      \"to_make\":[\n         {\n            \"thing\":\"LianaSeed\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"Water\",\n            \"quantity\":\"20\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Grape\",\n      \"source\":\"Greenhouse\",\n      \"time\":\"1800\",\n      \"batch\":\"2\",\n      \"to_make\":[\n         {\n            \"thing\":\"GrapeSeed\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"Water\",\n            \"quantity\":\"15\"\n         }\n      ]\n   },\n   {\n      \"name\":\"TreeSeed\",\n      \"source\":\"Shop\",\n      \"value\":\"20\"\n   },\n   {\n      \"name\":\"LianaSeed\",\n      \"source\":\"Shop\",\n      \"value\":\"1000\"\n   },\n   {\n      \"name\":\"GrapeSeed\",\n      \"source\":\"Shop\",\n      \"value\":\"1200\"\n   },\n   {\n      \"name\":\"CleanWater\",\n      \"source\":\"Chemistry\",\n      \"time\":\"600\",\n      \"value\":\"1200\",\n      \"to_make\":[\n         {\n            \"thing\":\"Water\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"Flask\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Rubber\",\n      \"source\":\"Chemistry\",\n      \"time\":\"1800\",\n      \"value\":\"4000\",\n      \"batch\":\"2\",\n      \"to_make\":[\n         {\n            \"thing\":\"Liana\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"SulfuricAcid\",\n      \"source\":\"Chemistry\",\n      \"time\":\"1800\",\n      \"value\":\"3500\",\n      \"to_make\":[\n         {\n            \"thing\":\"CleanWater\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"Sulfur\",\n            \"quantity\":\"2\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Ethanol\",\n      \"source\":\"Chemistry\",\n      \"time\":\"1800\",\n      \"value\":\"4200\",\n      \"to_make\":[\n         {\n            \"thing\":\"AluminumBottle\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"Grape\",\n            \"quantity\":\"2\"\n         }\n      ]\n   },\n   {\n      \"name\":\"RefinedOil\",\n      \"source\":\"Chemistry\",\n      \"time\":\"1800\",\n      \"value\":\"16500\",\n      \"to_make\":[\n         {\n            \"thing\":\"Flask\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"Hydrogen\",\n            \"quantity\":\"10\"\n         },\n         {\n            \"thing\":\"Oil\",\n            \"quantity\":\"10\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Plastic\",\n      \"source\":\"Chemistry\",\n      \"time\":\"600\",\n      \"value\":\"40000\",\n      \"to_make\":[\n         {\n            \"thing\":\"RefinedOil\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"Coal\",\n            \"quantity\":\"50\"\n         },\n         {\n            \"thing\":\"GreenLaser\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Hydrogen\",\n      \"source\":\"Chemistry\",\n      \"time\":\"900\",\n      \"value\":\"400\",\n      \"batch\":\"2\",\n      \"to_make\":[\n         {\n            \"thing\":\"CleanWater\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"Oxygen\",\n      \"source\":\"Chemistry\",\n      \"time\":\"900\",\n      \"value\":\"800\",\n      \"batch\":\"1\",\n      \"to_make\":[\n         {\n            \"thing\":\"CleanWater\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"PolishedAmber\",\n      \"source\":\"JewelCrafting\",\n      \"time\":\"30\",\n      \"value\":\"70\",\n      \"to_make\":[\n         {\n            \"thing\":\"Amber\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"PolishedEmerald\",\n      \"source\":\"JewelCrafting\",\n      \"time\":\"30\",\n      \"value\":\"160\",\n      \"to_make\":[\n         {\n            \"thing\":\"Emerald\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"AmberBracelet\",\n      \"source\":\"JewelCrafting\",\n      \"time\":\"120\",\n      \"value\":\"280\",\n      \"to_make\":[\n         {\n            \"thing\":\"PolishedAmber\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"SilverBar\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"EmeraldRing\",\n      \"source\":\"JewelCrafting\",\n      \"time\":\"300\",\n      \"value\":\"450\",\n      \"to_make\":[\n         {\n            \"thing\":\"PolishedEmerald\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"GoldBar\",\n            \"quantity\":\"1\"\n         }\n      ]\n   },\n   {\n      \"name\":\"ObsidianKnife\",\n      \"source\":\"JewelCrafting\",\n      \"time\":\"120\",\n      \"value\":\"450\",\n      \"to_make\":[\n         {\n            \"thing\":\"PolishedObsidian\",\n            \"quantity\":\"50\"\n         },\n         {\n            \"thing\":\"SilverBar\",\n            \"quantity\":\"1\"\n         }\n         {\n            \"thing\":\"Tree\",\n            \"quantity\":\"2\"\n         }\n      ]\n   },\n   {\n      \"name\":\"PolishedTopaz\",\n      \"source\":\"JewelCrafting\",\n      \"time\":\"60\",\n      \"value\":\"70\",\n      \"to_make\":[\n         {\n            \"thing\":\"Topaz\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"PolishedRuby\",\n      \"source\":\"JewelCrafting\",\n      \"time\":\"60\",\n      \"value\":\"75\",\n      \"to_make\":[\n         {\n            \"thing\":\"Ruby\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"PolishedDiamond\",\n      \"source\":\"JewelCrafting\",\n      \"time\":\"60\",\n      \"value\":\"90\",\n      \"to_make\":[\n         {\n            \"thing\":\"Diamond\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"PolishedSapphire\",\n      \"source\":\"JewelCrafting\",\n      \"time\":\"60\",\n      \"value\":\"80\",\n      \"to_make\":[\n         {\n            \"thing\":\"Sapphire\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"PolishedAmethyst\",\n      \"source\":\"JewelCrafting\",\n      \"time\":\"60\",\n      \"value\":\"90\",\n      \"to_make\":[\n         {\n            \"thing\":\"Amethyst\",\n            \"quantity\":\"5\"\n         }\n      ]\n   },\n   {\n      \"name\":\"MayaCalendar\",\n      \"source\":\"JewelCrafting\",\n      \"time\":\"120\",\n      \"to_make\":[\n         {\n            \"thing\":\"GoldBar\",\n            \"quantity\":\"10\"\n         },\n         {\n            \"thing\":\"SilverBar\",\n            \"quantity\":\"2\"\n         }\n      ]\n   },\n   {\n      \"name\":\"HairComb\",\n      \"source\":\"JewelCrafting\",\n      \"time\":\"120\",\n      \"to_make\":[\n         {\n            \"thing\":\"SilverBar\",\n            \"quantity\":\"1\"\n         },\n         {\n            \"thing\":\"PolishedAmethyst\",\n            \"quantity\":\"15\"\n         },\n         {\n            \"thing\":\"PolishedAlexandrite\",\n            \"quantity\":\"10\"\n         }\n      ]\n   }\n]",
 			"file": "materials.json",
+			"file_size": 17674,
+			"file_write_time": 131623101091920085,
 			"settings":
 			{
-				"buffer_size": 16633,
+				"buffer_size": 17956,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "["
@@ -542,7 +545,7 @@
 			"file": "materials.py",
 			"settings":
 			{
-				"buffer_size": 5897,
+				"buffer_size": 5990,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -560,7 +563,7 @@
 			"file": "crafting_hours.csv",
 			"settings":
 			{
-				"buffer_size": 1771,
+				"buffer_size": 1835,
 				"line_ending": "Unix"
 			}
 		}
@@ -901,6 +904,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Gear",
+			"NitrogenCompress",
+			"Nitrogen",
+			"TitaniumOreN",
+			"TitaniumOre",
+			"Poli",
 			"print_ingredients",
 			"accu_crafting_time",
 			"secs_per_day",
@@ -1022,13 +1031,7 @@
 			",\n   },",
 			"'",
 			"\"value\":",
-			"\",\n",
-			"nitr",
-			"ironBar",
-			"rubber",
-			"glassi",
-			"glass",
-			"siliconr"
+			"\",\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1137,7 +1140,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1146,15 +1149,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16633,
+						"buffer_size": 17956,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15299,
-								15299
+								3500,
+								3500
 							]
 						],
 						"settings":
@@ -1164,10 +1167,10 @@
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 13059.0,
+						"translation.y": 2629.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1205,7 +1208,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5897,
+						"buffer_size": 5990,
 						"regions":
 						{
 							"bookmarks":
@@ -1237,8 +1240,8 @@
 								"regions":
 								[
 									[
-										4974,
-										5031
+										5067,
+										5124
 									]
 								],
 								"scope": "invalid"
@@ -1247,8 +1250,8 @@
 						"selection":
 						[
 							[
-								4837,
-								4837
+								4678,
+								4678
 							]
 						],
 						"settings":
@@ -1314,12 +1317,16 @@
 								{
 									"characters": ".",
 									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
 								}
 							],
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1836.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1377,7 +1384,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1386,7 +1393,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1771,
+						"buffer_size": 1835,
 						"regions":
 						{
 						},
