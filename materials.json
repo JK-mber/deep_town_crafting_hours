@@ -72,6 +72,10 @@
       "source":"Mining"
    },
    {
+      "name":"Helium",
+      "source":"Mining"
+   },
+   {
       "name":"UraniumRod",
       "source":"Enrichment",
       "time":"600",
@@ -227,7 +231,7 @@
             "quantity":"10"
          },
          {
-            "thing":"Plastic",
+            "thing":"PlasticPlate",
             "quantity":"1"
          }
       ]
@@ -468,7 +472,7 @@
       ]
    },
    {
-      "name":"Flask",
+      "name":"LabFlask",
       "source":"Crafting",
       "time":"60",
       "value":"800",
@@ -756,7 +760,7 @@
             "quantity":"1"
          },
          {
-            "thing":"Flask",
+            "thing":"LabFlask",
             "quantity":"1"
          }
       ]
@@ -813,7 +817,7 @@
       "value":"16500",
       "to_make":[
          {
-            "thing":"Flask",
+            "thing":"LabFlask",
             "quantity":"1"
          },
          {
@@ -827,7 +831,7 @@
       ]
    },
    {
-      "name":"Plastic",
+      "name":"PlasticPlate",
       "source":"Chemistry",
       "time":"600",
       "value":"40000",
@@ -1039,6 +1043,97 @@
          {
             "thing":"PolishedAlexandrite",
             "quantity":"10"
+         }
+      ]
+   },
+   {
+      "name":"MagneticOre",
+      "source":"Chemistry",
+      "time":"360",
+      "to_make":[
+         {
+            "thing":"GreenLaser",
+            "quantity":"5"
+         },
+         {
+            "thing":"Oxygen",
+            "quantity":"5"
+         },
+         {
+            "thing":"IronBar",
+            "quantity":"10"
+         }
+      ]
+   },
+   {
+      "name":"EnhancedHelium",
+      "source":"Chemistry",
+      "time":"1800",
+      "to_make":[
+         {
+            "thing":"AluminumBottle",
+            "quantity":"1"
+         },
+         {
+            "thing":"Helium",
+            "quantity":"100"
+         },
+         {
+            "thing":"Compressor",
+            "quantity":"1"
+         }
+      ]
+   },
+   {
+      "name":"ToxicBomb",
+      "source":"Chemistry",
+      "time":"120",
+      "batch":"10",
+      "to_make":[
+         {
+            "thing":"SulfuricAcid",
+            "quantity":"10"
+         }
+      ]
+   },
+   {
+      "name":"MagneticBar",
+      "source":"Smelting",
+      "time":"60",
+      "to_make":[
+         {
+            "thing":"MagneticOre",
+            "quantity":"5"
+         }
+      ]
+   },
+   {
+      "name":"Magnet",
+      "source":"Crafting",
+      "time":"120",
+      "to_make":[
+         {
+            "thing":"MagneticBar",
+            "quantity":"1"
+         }
+      ]
+   },
+   {
+      "name":"ElectricalEngine",
+      "source":"Crafting",
+      "time":"300",
+      "to_make":[
+         {
+            "thing":"InsulatedWire",
+            "quantity":"50"
+         },
+         {
+            "thing":"Magnet",
+            "quantity":"1"
+         },
+         {
+            "thing":"AluminumBar",
+            "quantity":"20"
          }
       ]
    }

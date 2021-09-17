@@ -3,7 +3,7 @@ import pdb
 
 KEEP_STOCK_TIME_RATIO = 0.25
 KEEP_CDAYS_STOCK = 7
-
+RAW_MAT_SOURCES = ('Mining', 'ChemicalMining', 'Shop', 'WaterCollection', 'OilPumping')
 
 class Material:
     def __init__(self, raw_mat_dict, name=''):
@@ -16,7 +16,9 @@ class Material:
         self.batch = 1
         self.value = None
         self.stock_to_keep = 0
+        self.total_count = 0
 
+        self._raw_mats = None
         self._accu_crafting_time = None
 
         if 'to_make' in raw_mat_dict:
@@ -37,7 +39,7 @@ class Material:
             total_time = self.scaled_time
             if self.to_make is not None:
                 for ingredient in self.to_make:
-                    total_time += (ingredient[0].accu_crafting_time * ingredient[1])
+                    total_time += (ingredient.accu_crafting_time * self.to_make[ingredient])
 
             total_time = total_time / self.batch
             self._accu_crafting_time = total_time
@@ -47,6 +49,33 @@ class Material:
     @property
     def scaled_time(self):
         return self.time / self.crafting_slots
+
+    @property
+    def raw_mats(self):
+        return self.get_raw_mats()
+
+    @property
+    def all_ingredients(self):
+        if self.to_make is not None:
+            for mat, count in self.to_make:
+                yield 1
+
+
+    def get_raw_mats(self, num_crafts=1):
+        if self._raw_mats is None:
+            raw_mats = {}
+            if self.to_make is not None:
+                for ingredient in self.to_make:
+                    for ingredient_mat, ingredient_amount in ingredient.get_raw_mats(self.to_make[ingredient]).items():
+                        if ingredient_mat not in raw_mats:
+                            raw_mats[ingredient_mat] = ingredient_amount * num_crafts
+                        else:
+                            raw_mats[ingredient_mat] += ingredient_amount * num_crafts
+
+            else:
+                raw_mats[self] = num_crafts
+            self._raw_mats = raw_mats
+        return self._raw_mats
 
     def update_stock_to_keep(self, amount=None):
         if self.accu_crafting_time == 0:
@@ -60,8 +89,17 @@ class Material:
             self.stock_to_keep += amount
         else:
             n_crafts = amount / self.batch
+            for ingredient, ingredient_count in self.to_make.items():
+                ingredient.update_stock_to_keep(n_crafts * ingredient_count)
+
+    def increment_nested_count(self):
+        self.total_count += 1
+        if self.to_make is not None:
             for ingredient in self.to_make:
-                ingredient[0].update_stock_to_keep(n_crafts * ingredient[1])
+                ingredient.increment_nested_count()
+
+
+
 
 
 class MaterialBundle:
@@ -77,7 +115,7 @@ class MaterialBundle:
         with open(crafters_file_name, 'r') as crafters_file:
             crafters_dict = json.loads(crafters_file.read())
             for mat in self._materials.values():
-                if mat.source not in ('Mining', 'ChemicalMining', 'Shop', 'WaterCollection', 'OilPumping'):
+                if mat.source not in RAW_MAT_SOURCES:
                     mat.crafting_slots = int(crafters_dict[mat.source]['amount'])
 
         self.update_nested_material_list()
@@ -102,17 +140,17 @@ class MaterialBundle:
     def update_nested_material_list(self):
         for mat in self._materials.values():
             if mat.to_make_raw is not None:
-                mat.to_make = [(self._materials[d['thing']], int(d['quantity'])) for d in mat.to_make_raw]
+                mat.to_make = {self._materials[d['thing']]: int(d['quantity']) for d in mat.to_make_raw}
 
     def update_stock_to_keep(self, amount = None):
         for mat in self._materials.values():
-            mat.update_stock_to_keep()
+            mat.update_stock_to_keep(amount)
 
-    def print_all_mats(self, save_to_csv=False):
+    def print_mat_stocks(self, csv_file=None):
         table_lines = []
         for name in self._materials:
             mat = self._materials[name]
-            if mat.source not in ('Mining', 'ChemicalMining', 'Shop', 'WaterCollection', 'OilPumping'):
+            if mat.source not in RAW_MAT_SOURCES:
                 table_lines.append([
                     name,
                     mat.source,
@@ -122,8 +160,8 @@ class MaterialBundle:
 
         table_lines.sort(key=lambda l: (l[1], l[3]), reverse=True)
 
-        if save_to_csv:
-            with open('crafting_hours.csv', 'w') as f:
+        if csv_file is not None:
+            with open('csv_file', 'w') as f:
                 f.write('Material,Source,Tot. Scaled c-time (s),Stock to keep (7 c-days)\n')
                 for line in table_lines:
                     f.write(','.join([str(i) for i in line]) + '\n')
@@ -140,6 +178,46 @@ class MaterialBundle:
                   str(line[2]).rjust(sz[2]) +
                   str(line[3]).rjust(sz[3]))
 
+    def print_material_list(self, csv_file=None):
+        items = []
+        for mat in self._materials.values():
+            if mat.source not in RAW_MAT_SOURCES:
+                items.append((mat.name, mat.source, mat.time, mat.batch))
+        items.sort(key=lambda x: (x[1], x[0]))
+        if csv_file is not None:
+            with open(csv_file, 'w') as f:
+                f.write('Item,Source,Crafting time [s],Amount per craft\n')
+                for item in items:
+                    f.write(item[0])
+                    for k in item[1:]:
+                        f.write(',' + str(k))
+                    f.write('\n')
+
+    def print_crafter_list(self, csv_file=None):
+        crafters = []
+        for mat in self._materials.values():
+            if mat.source not in RAW_MAT_SOURCES and mat.source not in [k[0] for k in crafters]:
+                crafters.append((mat.source, mat.crafting_slots))
+        crafters.sort(key=lambda x: (x[0]))
+        if csv_file is not None:
+            with open(csv_file, 'w') as f:
+                f.write('Crafter type,# slots\n')
+                for item in crafters:
+                    f.write(item[0] + ',' + str(item[1]) +'\n')
+
+    def print_all_recipes(self, csv_file=None):
+        if csv_file is not None:
+            with open(csv_file, 'w') as f:
+                for mat in self._materials.values():
+                    if mat.source not in RAW_MAT_SOURCES:
+                        # pass
+                        to_make = [item.name+','+str(amount) for item, amount in mat.to_make.items()]
+                        f.write(mat.name+',')
+                        f.write(str(mat.batch)+',')
+                        f.write(','.join(to_make))
+                        f.write('\n')
+
+        # for item in items:
 
 
 
@@ -148,10 +226,10 @@ if __name__ == "__main__":
     material_bundle = MaterialBundle()
     mb = material_bundle
 
-    mb.print_all_mats(save_to_csv=True)
-
-
-
+    mb.print_mat_stocks('crafting_hours.csv')
+    mb.print_material_list('material_properties.csv')
+    mb.print_crafter_list('crafter_properties.csv')
+    mb.print_all_recipes('recipes.csv')
 
 
     import pdb; pdb.set_trace()  # breakpoint 6d600ce3 //
