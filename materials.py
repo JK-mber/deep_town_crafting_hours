@@ -1,8 +1,9 @@
 import json
 import pdb
+import pathlib
 
 KEEP_STOCK_TIME_RATIO = 0.25
-KEEP_CDAYS_STOCK = 7
+KEEP_CDAYS_STOCK = 1
 RAW_MAT_SOURCES = ('Mining', 'ChemicalMining', 'Shop', 'WaterCollection', 'OilPumping')
 
 class Material:
@@ -105,14 +106,14 @@ class Material:
 class MaterialBundle:
     def __init__(self, mats_file_name='materials.json', crafters_file_name='crafters.json'):
         self._materials = {}
-
-        with open(mats_file_name, 'r') as mats_file:
+        mats_file_path = pathlib.Path(__file__).parent / mats_file_name;
+        with open(mats_file_path, 'r') as mats_file:
             mats_dict = json.loads(mats_file.read())
-
             for mat in mats_dict:
                 self.add_material(mat)
 
-        with open(crafters_file_name, 'r') as crafters_file:
+        crafters_file_path = pathlib.Path(__file__).parent / crafters_file_name;
+        with open(crafters_file_path, 'r') as crafters_file:
             crafters_dict = json.loads(crafters_file.read())
             for mat in self._materials.values():
                 if mat.source not in RAW_MAT_SOURCES:
@@ -146,7 +147,7 @@ class MaterialBundle:
         for mat in self._materials.values():
             mat.update_stock_to_keep(amount)
 
-    def print_mat_stocks(self, csv_file=None):
+    def print_mat_stocks(self, csv_file=None, output_to_console = False):
         table_lines = []
         for name in self._materials:
             mat = self._materials[name]
@@ -161,22 +162,23 @@ class MaterialBundle:
         table_lines.sort(key=lambda l: (l[1], l[3]), reverse=True)
 
         if csv_file is not None:
-            with open('csv_file', 'w') as f:
-                f.write('Material,Source,Tot. Scaled c-time (s),Stock to keep (7 c-days)\n')
+            with open(csv_file, 'w') as f:
+                f.write(f'Material,Source,Tot. Scaled c-time (s),Stock to keep ({KEEP_CDAYS_STOCK} c-days)\n')
                 for line in table_lines:
                     f.write(','.join([str(i) for i in line]) + '\n')
 
-        sz = [20, 15, 15, 17]
-        print('Item'.ljust(sz[0]) +
-            'Source'.ljust(sz[1]) +
-            'Tot. ctime (s)'.rjust(sz[2]) +
-            'Stock to keep'.rjust(sz[3]))
-        print(''.join(['-']*(sum(sz))))
-        for line in table_lines:
-            print(line[0].ljust(sz[0]) +
-                  line[1].ljust(sz[1]) +
-                  str(line[2]).rjust(sz[2]) +
-                  str(line[3]).rjust(sz[3]))
+        if output_to_console is True:
+            sz = [20, 15, 15, 17]
+            print('Item'.ljust(sz[0]) +
+                'Source'.ljust(sz[1]) +
+                'Tot. ctime (s)'.rjust(sz[2]) +
+                'Stock to keep'.rjust(sz[3]))
+            print(''.join(['-']*(sum(sz))))
+            for line in table_lines:
+                print(line[0].ljust(sz[0]) +
+                    line[1].ljust(sz[1]) +
+                    str(line[2]).rjust(sz[2]) +
+                    str(line[3]).rjust(sz[3]))
 
     def print_material_list(self, csv_file=None):
         items = []
@@ -226,13 +228,13 @@ if __name__ == "__main__":
     material_bundle = MaterialBundle()
     mb = material_bundle
 
-    mb.print_mat_stocks('crafting_hours.csv')
+    mb.print_mat_stocks('crafting_hours.csv', output_to_console = True)
     mb.print_material_list('material_properties.csv')
     mb.print_crafter_list('crafter_properties.csv')
     mb.print_all_recipes('recipes.csv')
 
 
-    import pdb; pdb.set_trace()  # breakpoint 6d600ce3 //
+    # import pdb; pdb.set_trace()  # breakpoint 6d600ce3 //
 
 
 
